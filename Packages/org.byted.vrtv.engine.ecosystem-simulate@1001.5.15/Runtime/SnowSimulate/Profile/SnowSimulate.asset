@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b2de0db0652e0847835d5c8441bf6fe, type: 3}
+  m_Name: SnowSimulate
+  m_EditorClassIdentifier: 
+  m_Enable: 1
+  m_EnableGizmos: 0
+  m_SnowPrefab: {fileID: 8344218594096704277, guid: b5247b1e6b1ae25438069cb95e171cb4, type: 3}
+  m_EnableSnowParticle: 1
+  m_SnowStrength: 1
+  m_EnableSnowSurface: 1
+  m_SnowSurfaceStrength: 1
+  m_SnowMaskColor: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
+  m_SnowTex: {fileID: 2800000, guid: fcf5cbaa74a8042489b20e475906622b, type: 3}
+  m_SnowNormalTex: {fileID: 2800000, guid: 52c3d8c82b75a794890ecec050a813f4, type: 3}
+  m_SnowTexScale: {x: 256, y: 256}
+  m_SnowNormalRatio: 0.8

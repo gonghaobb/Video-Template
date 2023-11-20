@@ -1,0 +1,28 @@
+//
+//      __  __       _______ _____  _______   __
+//      |  \/  |   /\|__   __|  __ \|_   _\ \ / /
+//      | \  / |  /  \  | |  | |__) | | |  \ V / 
+//      | |\/| | / /\ \ | |  |  _  /  | |   > <  
+//      | |  | |/ ____ \| |  | | \ \ _| |_ / . \
+//      |_|  |_/_/    \_\_|  |_|  \_\_____/_/ \_\
+//									   (ByteDance)
+//
+//      Created by Matrix team.
+//      Procedural LOGO:https://www.shadertoy.com/view/ftKBRW
+//
+//      The team was set up on September 4, 2019.
+//
+
+#pragma kernel HeightMapReadBack
+
+Texture2D<float> _DynamicHeightMap;
+RWStructuredBuffer<float> _HeightReadBack;
+uniform float _HeightMapSize;
+
+[numthreads(16,16,1)]
+void HeightMapReadBack (uint3 id : SV_DispatchThreadID)
+{
+    int2 uv = id.xy;
+    
+    _HeightReadBack[uv.x + _HeightMapSize * uv.y] = _DynamicHeightMap[uv].r;
+}

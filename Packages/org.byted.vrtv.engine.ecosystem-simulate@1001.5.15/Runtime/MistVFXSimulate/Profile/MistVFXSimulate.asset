@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88aa446c6d3f454d93fdef0689772db, type: 3}
+  m_Name: MistVFXSimulate
+  m_EditorClassIdentifier: 
+  m_Enable: 1
+  m_EnableGizmos: 0
+  m_MistPrefab: {fileID: 8070038998934122976, guid: 05a618456a9e1a24b97c9f9521d504bb, type: 3}
+  m_BindWindSimulate: 1
+  m_GlobalWind: {x: 1, y: 0, z: 1}
+  m_WindIntensity: 1
+  m_EnableBindMainCamera: 0
+  m_EnableBindTarget: 0
+  m_TargetPosition: {x: 0, y: 0, z: 0}
+  m_EnableMistParticle: 1
+  m_MistStrength: 0.5
+  m_MistMaxCount: 5
+  m_MistStartSize: {x: 15, y: 20}
+  m_MistMaxLifeTime: 3
+  m_MistVelocityScale: {x: 1, y: 1, z: 1}
+  m_ParticleBoundsSize: {x: 8, y: 8, z: 8}
+  m_MistParticleTexture: {fileID: 2800000, guid: e38a766d2f8fba943959aff6916ba6da, type: 3}
+  m_MistParticleTextureSheetTiles: {x: 5, y: 5}
+  m_MistParticleColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  m_EnableMistSoftParticle: 0

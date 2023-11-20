@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eb3d76d6a640904b98d75089453adde, type: 3}
+  m_Name: CloudShadowSimulate
+  m_EditorClassIdentifier: 
+  m_Enable: 1
+  m_EnableGizmos: 0
+  cloudShadowMap: {fileID: 2800000, guid: 3e0c9d0610c729f4283764168b9fcdf4, type: 3}
+  cloudShadowColor: {r: 0.13207549, g: 0.11774655, b: 0.11774655, a: 1}
+  firstCloudShadowParam:
+    cloudShadowMapSize: {x: 20, y: 20}
+    cloudShadowIntensity: 1
+    cloudShadowDirection: 233
+    cloudShadowUseWindDirection: 0
+    cloudShadowSpeed: {x: 1, y: 1}
+    cloudShadowNoiseIntensity: 1
+    cloudShadowNoiseSpeed: {x: 5, y: 5}
+    cloudShadowNoiseTiling: {x: 1, y: 1}
+  secondCloudShadowParam:
+    cloudShadowMapSize: {x: 80, y: 80}
+    cloudShadowIntensity: 1
+    cloudShadowDirection: 190
+    cloudShadowUseWindDirection: 0
+    cloudShadowSpeed: {x: 0.1, y: 0.1}
+    cloudShadowNoiseIntensity: 1
+    cloudShadowNoiseSpeed: {x: 1, y: 1}
+    cloudShadowNoiseTiling: {x: 1, y: 1}

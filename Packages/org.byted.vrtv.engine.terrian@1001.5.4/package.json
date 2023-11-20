@@ -1,0 +1,12 @@
+{
+  "name": "org.byted.vrtv.engine.terrian",
+  "description": "terrian system.",
+  "version": "1001.5.4",
+  "unity": "2020.3",
+  "displayName": "Pico Terrian System",
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "1001.5.12-Matrix-10.8.1",
+    "org.byted.vrtv.engine.ecosystem-simulate": "1001.5.2",
+    "org.byted.vrtv.engine.common-shader": "1001.5.9"
+  }
+}

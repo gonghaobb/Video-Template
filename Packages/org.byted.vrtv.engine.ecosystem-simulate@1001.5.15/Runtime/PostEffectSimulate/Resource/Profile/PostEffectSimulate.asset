@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6749b79b68fb84e8d6fb5b5372f063, type: 3}
+  m_Name: PostEffectSimulate
+  m_EditorClassIdentifier: 
+  m_Enable: 1
+  m_EnableGizmos: 0
+  postEffectShader: {fileID: 4800000, guid: fbc82a0e9f751cb45969b3d4919f8920, type: 3}
+  postEffectMat: {fileID: 2100000, guid: 761494607fc380949ba9aa2d636559af, type: 2}
+  enableScreenDistortion: 0
+  screenDistortionTexture: {fileID: 2800000, guid: 5bdb9bd763ed9cd4db572b982855b629, type: 3}
+  screenDistortionTextureScale: {x: 1, y: 1}
+  screenDistortionTextureOffset: {x: 0, y: 0}
+  screenDistortionU: 0.78
+  screenDistortionV: 1.06
+  screenDistortStrength: 0.155
+  enableGrainyRadius: 1
+  grainyRadius: 28.4
+  grainyBlurIteration: 1
+  grainyBlurEdgeWeakDistance: 0
+  enableGlitchImageBlock: 0
+  glitchImageBlockSpeed: 10
+  glitchImageBlockSize: 8
+  glitchImageBlockMaxRGBSplitX: 1
+  glitchImageBlockMaxRGBSplitY: 1
+  enableGlitchScreenShake: 0
+  glitchScreenShakeIndensityX: 0.5
+  glitchScreenShakeIndensityY: 0

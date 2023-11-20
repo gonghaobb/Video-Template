@@ -1,0 +1,22 @@
+{
+    "name": "VRTV.Base.Dotween.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:98a3145d29c442d4c880abf5faccc3e3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "DOTweenPro.dll",
+        "DOTween.dll",
+        "DemiEditor.dll",
+        "DemiLib.dll",
+        "DOTweenEditor.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

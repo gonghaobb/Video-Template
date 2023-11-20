@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 4fbc19bd6558ece40bbb280a832099d7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_SceneHeightMapRendererShader: {fileID: 4800000, guid: 080c0c196d64cec4e925d5176d74a0f1,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SkyCubeMapMat
+  m_Shader: {fileID: 4800000, guid: 1444a2d6183df6243822e0b80d4264ed, type: 3}
+  m_ShaderKeywords: SKY_CLOUD_DIRECTIONAL_MOTION _CLOUD_MAP _SUN_ENABLE
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CloudSampler:
+        m_Texture: {fileID: 8900000, guid: c16891d3ddc3d6f419f9d834abab7ec3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GalaxyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MoonTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarsMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarsTwinklingNoiseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex:
+        m_Texture: {fileID: 8900000, guid: e8889013fc1a1ac48839c1a02e94adc3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _cloudSampler:
+        m_Texture: {fileID: 8900000, guid: e4b6915c0d6aa6e4aa6800dc4b8bae56, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CloudRotation: 266
+    - _CustomExposure: 0.823
+    - _Exposure: 0.823
+    - _FogOffsetHeight: 0.313
+    - _FogScatter: 1.12
+    - _GalaxyIntensity: 0
+    - _LightningExposureMultiplier: 0
+    - _MoonDistance: 20
+    - _MoonGlowPower: 1
+    - _MoonIntensity: 1
+    - _MoonPhase: 0
+    - _Rotation: 190.4
+    - _StarsFill: 0
+    - _StarsIntensity: 0
+    - _StarsRotation: 0
+    - _StarsTwinklingRate: 0
+    - _SunDistance: 130
+    - _SunPower: 2
+    - _fogOffsetHeight: 0
+    - _fogScatter: 1
+    - _fogWaveHeight: 0.01
+    m_Colors:
+    - _CloudColor: {r: 0.3, g: 0.3, b: 0.3, a: 0.3}
+    - _GalaxyColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MoonColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MoonDirection: {r: 1, g: 1, b: 1, a: 1}
+    - _MoonGlowColor: {r: 0.027, g: 0.081, b: 0.189, a: 1}
+    - _ShadeColorFromSky: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadeColorFromSun: {r: 1, g: 1, b: 1, a: 1}
+    - _SkyColor: {r: 0.3, g: 0.3, b: 0.3, a: 0.3}
+    - _SunColor: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+    - _SunDirection: {r: -0.25878146, g: 0.56698143, b: 0.78202605, a: 0}
+    - _shadeColorFromSky: {r: 0.7, g: 0.7, b: 0.7, a: 0.7}
+    - _shadeColorFromSun: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

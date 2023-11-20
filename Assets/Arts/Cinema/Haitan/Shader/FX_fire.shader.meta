@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 88de6bda3a2daf24fa30adeb28b910f3
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _zhutu: {fileID: 2800000, guid: c6876eabdb761d94bb3dc899ee8b9e83, type: 3}
+  - _raodong: {fileID: 2800000, guid: 2aaa05886f9849848afe39a39a37f7d1, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

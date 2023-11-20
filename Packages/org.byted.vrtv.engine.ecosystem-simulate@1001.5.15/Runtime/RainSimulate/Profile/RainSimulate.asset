@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8738c6575d2046d4484b5b33c91534a8, type: 3}
+  m_Name: RainSimulate
+  m_EditorClassIdentifier: 
+  m_Enable: 0
+  m_EnableGizmos: 0
+  m_RainPrefab: {fileID: 2128919093974536405, guid: 816f98a25b39d64408cc075a5e29d772, type: 3}
+  m_EnableRainParticle: 1
+  m_RainStrength: 0.446
+  m_EnableRainHumidness: 1
+  m_RainHumidnessStrength: 1
+  m_RainSurfaceWaterMaskTexWorldPosSize: {x: 0, y: 0, z: 256, w: 256}
+  m_RainSurfaceWaveTex: {fileID: 2800000, guid: 601f1c7b83f45f0429ff316c7d19b471, type: 3}
+  m_RainSurfaceWaveTexSacle: {x: 100, y: 100}
+  m_RainSurfaceWaveTexSpeed: 0.2

@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ParallaxCloud
+  m_Shader: {fileID: 4800000, guid: 3090335a09135b440b06e96e1a6268a0, type: 3}
+  m_ShaderKeywords: _RECEIVESHADOWS_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
+  - SHADOWCASTER
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmssionCubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowTex:
+        m_Texture: {fileID: 2800000, guid: 43bcbf796c42cef4089a597179168410, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LayerAlphaMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LayerBaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LayerBumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 6add3876617006945b1bdfdbca1a9f8e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Test:
+        m_Texture: {fileID: 2800000, guid: e9bd1faa7c140374aa11828baf048a0b, type: 3}
+        m_Scale: {x: 1.57, y: 0.57}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AdjustColorIntensity: 1
+    - _Advanced: 0
+    - _Alpha: 0.222
+    - _AlphaClip: 0
+    - _ApplyVertexColor: 0
+    - _BaseMapBias: 0
+    - _Blend: 0
+    - _BumpMapBias: 0
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _CloudShadowIntensity: 1
+    - _Cull: 2
+    - _CustomFogFragment: 0
+    - _CustomQueue: 3000
+    - _CustomSpecularIntensity: 0
+    - _Cutoff: 0.5
+    - _DepthFadeMultiplier: 0
+    - _DetailAlbedoMapScale: 1
+    - _DetailInputs: 0
+    - _DetailNormalMapScale: 1
+    - _DisableHeightmapRenderer: 0
+    - _DstBlend: 10
+    - _EcosystemInputs: 0
+    - _Emission: 0
+    - _EmissionCubemapIntensity: 1
+    - _EmissionCubemapLod: 0
+    - _EnableAlphaMap: 0
+    - _EnableCustomSpecular: 0
+    - _EnableDepthFade: 0
+    - _EnableFlow: 1
+    - _EnableLayerBlend: 0
+    - _EnvironmentReflections: 1
+    - _FlowIntensity: 0.604
+    - _FlowOptions: 0
+    - _FlowSpeed: 5
+    - _FresnelBias: 0
+    - _FresnelPower: 4
+    - _FresnelScale: 1
+    - _GlobalCloudShadow: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Height: 0.353
+    - _HeightAmount: 0.889
+    - _HeightFogFar: 1000
+    - _HeightFogMax: 100
+    - _HeightFogMin: 10
+    - _HeightFogNear: 100
+    - _LayerBlend: 0
+    - _LayerBlendGroup: 0
+    - _LayerBlendSmoothness: 1
+    - _LayerBlendStrength: 0.5
+    - _LayerBumpScale: 1
+    - _LayerEnableAlphaMap: 0
+    - _LayerMetallic: 0
+    - _LayerOcclusionStrength: 1
+    - _LayerShadows: 0
+    - _LayerSmoothness: 0.5
+    - _LightIntensity: 1.78
+    - _LightOptions: 0
+    - _LightingModel: 1
+    - _LightmapSpecular: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _RenderMode: 0
+    - _ShadowAreaFirst: 0.5
+    - _ShadowAreaSecond: 0.5
+    - _ShadowAreaThird: 0.35
+    - _ShadowBoundaryFirst: 0
+    - _ShadowBoundarySecond: 0
+    - _ShadowBoundaryThird: 0
+    - _ShadowSmoothFirst: 0.05
+    - _ShadowSmoothSecond: 0.05
+    - _ShadowSmoothThird: 0.05
+    - _ShapeOptions: 0
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _Surface: 1
+    - _SurfaceInputs: 0
+    - _SurfaceOptions: 0
+    - _UVSec: 0
+    - _UseFixedLight: 1
+    - _VertexHeightIntensity: 0.091
+    - _WeatherMode: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BlingPhongSpecColor: {r: 0, g: 0, b: 0, a: 1}
+    - _CloudSpeed: {r: 2, g: 0, b: 1.2, a: 0}
+    - _Color: {r: 0.86780584, g: 0.9716981, b: 0.9716981, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FixedLightDir: {r: -0.28, g: 0.55, b: -0.59, a: -1.5}
+    - _HeightFogColor: {r: 0.33088234, g: 0.41708925, b: 0.625, a: 1}
+    - _HeightTileSpeed: {r: 3, g: 2, b: 0, a: 0}
+    - _LayerBaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColorFirst: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColorSecond: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColorThird: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _sunFogColor: {r: 0.6764706, g: 0.5098399, b: 0.34320936, a: 1}
+  m_BuildTextureStacks: []

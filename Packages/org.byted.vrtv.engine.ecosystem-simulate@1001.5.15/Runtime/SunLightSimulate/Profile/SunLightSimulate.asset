@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e94c0434e3bc6e4f86c43ee5b0870ca, type: 3}
+  m_Name: SunLightSimulate
+  m_EditorClassIdentifier: 
+  m_Enable: 1
+  m_EnableGizmos: 0
+  m_MainCamera: {fileID: 0}
+  m_SunShaftsShader: {fileID: 4800000, guid: 4c386c2adfb64fe4b87517c6b27db11a, type: 3}
+  m_SunLightName: 
+  m_SunLightForward: {x: 0, y: 0, z: 0}
+  m_LensFlareForward: {x: 0, y: 0, z: 0}
+  m_MainLight: {fileID: 0}
+  m_ScreenBlendMode: 1
+  m_DownSample: 2
+  m_SunThreshold: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
+  m_ShaftsColor: {r: 0.41509432, g: 0.23930332, b: 0.08419366, a: 1}
+  m_SunRadius: 0.67
+  m_BlurIterations: 2
+  m_BlurRadius: 3.34
+  m_SunShaftIntensity: 10
+  m_VolumetricShader: {fileID: 4800000, guid: e6c9c45794c10844aa80818272ed1bc8, type: 3}
+  m_VolumetricDownSample: 1
+  m_SamplerScale: 1
+  m_StepNum: 174
+  m_MaxRayLength: 95.7
+  m_VolumetricColor: {r: 0.9339623, g: 0.4399968, b: 0.12775902, a: 1}
+  m_LightRange: 0.685
+  m_LightIntensity: 2.69
+  m_LightScatteringFactor: 2.25
+  m_EnableViewDirOptimize: 1
+  m_EnableLensFlare: 0
+  m_OcclusionRadius: 1
+  m_NearFadeStartDistance: 1
+  m_NearFadeEndDistance: 3
+  m_FarFadeStartDistance: 100
+  m_FarFadeEndDistance: 100000
+  m_FlareList:
+  - Name: "\u5149\u66551"
+    RayPosition: 0
+    Material: {fileID: 2100000, guid: e5d6ce8810d43cd4fbb11b7749e5d4db, type: 2}
+    Color: {r: 1, g: 1, b: 1, a: 0}
+    MultiplyByLightColor: 1
+    Size: {x: 0.4, y: 0.4}
+    Rotation: 0
+    AutoRotate: 0
+  - Name: 222222
+    RayPosition: 0
+    Material: {fileID: 2100000, guid: e9cf9ad03875c9c4a9d1e310a8f77043, type: 2}
+    Color: {r: 1, g: 1, b: 1, a: 0}
+    MultiplyByLightColor: 1
+    Size: {x: 2, y: 2}
+    Rotation: 1
+    AutoRotate: 0
+  - Name: 3333333
+    RayPosition: 0.46
+    Material: {fileID: 2100000, guid: 1035031f1816c9d4b9802683b374ac71, type: 2}
+    Color: {r: 1, g: 1, b: 1, a: 0}
+    MultiplyByLightColor: 1
+    Size: {x: 0.8, y: 0.8}
+    Rotation: 0
+    AutoRotate: 0
+  - Name: 444444444
+    RayPosition: 1.14
+    Material: {fileID: 2100000, guid: 3c82e49c214160f499b3a2f790e8258c, type: 2}
+    Color: {r: 0.7632228, g: 0.7924528, b: 0.5420078, a: 0}
+    MultiplyByLightColor: 1
+    Size: {x: 0.5, y: 0.5}
+    Rotation: 0
+    AutoRotate: 1
+  - Name: 55555555
+    RayPosition: 1.04
+    Material: {fileID: 2100000, guid: b645619360c70d0478b0eb4794a6788b, type: 2}
+    Color: {r: 0.89945835, g: 0.8806592, b: 0.43700102, a: 1}
+    MultiplyByLightColor: 1
+    Size: {x: 1, y: 1}
+    Rotation: 0
+    AutoRotate: 1

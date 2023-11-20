@@ -1,0 +1,32 @@
+{
+    "name": "VRTV.Engine.OverlayUI.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.UI",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.XR.PICO",
+        "Unity.XR.PicoXR",
+        "Unity.XR.Interaction.Toolkit"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "org.byted.vrtv.xr.picoxr",
+            "expression": "",
+            "define": "PICOVEDIO_PXR"
+        },
+        {
+            "name": "com.unity.ugui",
+            "expression": "2.0.27-Matrix",
+            "define": "PICO_UGUI"
+        }
+    ],
+    "noEngineReferences": false
+}

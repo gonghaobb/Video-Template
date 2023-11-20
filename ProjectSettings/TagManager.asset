@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - OverlayUI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: OverlayCanvas0
+    uniqueID: 10000
+    locked: 0
+  - name: OverlayCanvas1
+    uniqueID: 10001
+    locked: 0
+  - name: OverlayCanvas2
+    uniqueID: 10002
+    locked: 0
+  - name: OverlayCanvas3
+    uniqueID: 10003
+    locked: 0
+  - name: OverlayCanvas4
+    uniqueID: 10004
+    locked: 0
+  - name: OverlayCanvas5
+    uniqueID: 10005
+    locked: 0
+  - name: OverlayCanvas6
+    uniqueID: 10006
+    locked: 0
+  - name: OverlayCanvas7
+    uniqueID: 10007
+    locked: 0
+  m_PublicTags: []
+  m_PublicLayers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 

@@ -1,0 +1,7 @@
+{
+  "name": "org.byted.vrtv.engine.universal-ui-extension",
+  "description": "Universal UI Extension.",
+  "version": "1.0.4",
+  "unity": "2020.3",
+  "displayName": "Pico Universal UI Extension"
+}

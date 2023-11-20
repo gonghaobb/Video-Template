@@ -1,0 +1,10 @@
+{
+  "name": "org.byted.vrtv.engine.overlay-ui",
+  "description": "Overlay capability for UGUI Canvas",
+  "version": "1.0.7",
+  "unity": "2020.3",
+  "displayName": "Pico Overlay UI",
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "1001.5.0"
+  }
+}

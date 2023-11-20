@@ -1,0 +1,15 @@
+{
+  "name": "org.byted.vrtv.base.softmask",
+  "displayName": "Pico Soft Mask",
+  "version": "2.0.6",
+  "unity": "2020.3",
+  "keywords": [
+    "Soft Mask"
+  ],
+  "description": "Soft Mask is a component for smooth masking of UI elements in Unity. Modified by Pico. By Pico.",
+  "dependencies": {
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+	"com.unity.ugui": "2.0.27-Matrix"
+  }
+}

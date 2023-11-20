@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac8bf8648139a5489fca891a0e11072, type: 3}
+  m_Name: FogSimulate
+  m_EditorClassIdentifier: 
+  m_Enable: 1
+  m_EnableGizmos: 0
+  rawCommon:
+    bindMainLight: 1
+    sunRotation: {x: 45, y: -48.5, z: 0}
+  rawFog:
+    fogEnabled: 1
+    fogIntensity: 1
+    fogColorStart: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    fogColorEnd: {r: 0, g: 0, b: 0, a: 0}
+    fogDistanceStart: 12.4
+    fogDistanceEnd: 41.9
+    fogHeightFactorIndependent: 0
+    fogHeightFactor: 0.805
+    fogHeightStart: 0
+    fogHeightEnd: 20
+    fogNoiseParam:
+      enableFogNoise: 1
+      fogNoiseIntensity: 1
+      fogNoiseSpeed: {x: 0.1, y: 0, z: 0}
+      fogNoiseDistance: 243.7
+      fogNoiseScale: 102.5
+      noise3D: {fileID: 11700000, guid: 836429d92e1b49443b7743362fdeb1fe, type: 3}
+    fogDirectionParam:
+      fogDirectionalColor: {r: 2.3678744, g: 1.0289717, b: 0, a: 1}
+      directionalIntensity: 1
+      directionalFalloff: 2
+  rawSky:
+    skyboxEnable: 1
+    exposure: 0.823
+    skybox: {fileID: 2100000, guid: c3175b993a7cba2409c12cc6b8446123, type: 2}
+    skyCube: {fileID: 8900000, guid: e8889013fc1a1ac48839c1a02e94adc3, type: 3}
+    skyColor: {r: 1, g: 1, b: 1, a: 1}
+    rotateOffset: 190.4
+    cloudCube: {fileID: 8900000, guid: c16891d3ddc3d6f419f9d834abab7ec3, type: 3}
+    cloudColor: {r: 1, g: 1, b: 1, a: 1}
+    cloudRotateOffset: 266
+    cloudMotionMode: 1
+    cloudOrientation: 94.8
+    cloudDirectionSpeed: 10
+    cloudRotateSpeed: 4.3
+    fogGrad:
+      serializedVersion: 2
+      key0: {r: 0, g: 0, b: 0, a: 1}
+      key1: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
+      key2: {r: 0.80588233, g: 0.80588233, b: 0.80588233, a: 0}
+      key3: {r: 1, g: 1, b: 1, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 17926
+      ctime2: 65535
+      ctime3: 65535
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    fogGradHeight: 0.187
+    enableSun: 1
+    sunColor: {r: 1, g: 1, b: 1, a: 1}
+    sunDistance: 130
+    sunPower: 2
+    originSkyboxMat: {fileID: 0}
